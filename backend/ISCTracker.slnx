@@ -1,6 +1,0 @@
-<Solution>
-  <Project Path="ISCTracker.API/ISCTracker.API.csproj" />
-  <Project Path="ISCTracker.Application/ISCTracker.Application.csproj" />
-  <Project Path="ISCTracker.Domain/ISCTracker.Domain.csproj" />
-  <Project Path="ISCTracker.Infrastructure/ISCTracker.Infrastructure.csproj" />
-</Solution>
