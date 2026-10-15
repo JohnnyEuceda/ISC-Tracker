@@ -1,0 +1,16 @@
+D:\Programador\ISC-Tracker\backend\ISCTracker.Application\bin\Debug\net10.0\ISCTracker.Application.deps.json
+D:\Programador\ISC-Tracker\backend\ISCTracker.Application\bin\Debug\net10.0\ISCTracker.Application.dll
+D:\Programador\ISC-Tracker\backend\ISCTracker.Application\bin\Debug\net10.0\ISCTracker.Application.pdb
+D:\Programador\ISC-Tracker\backend\ISCTracker.Application\bin\Debug\net10.0\ISCTracker.Domain.dll
+D:\Programador\ISC-Tracker\backend\ISCTracker.Application\bin\Debug\net10.0\ISCTracker.Domain.pdb
+D:\Programador\ISC-Tracker\backend\ISCTracker.Application\obj\Debug\net10.0\ISCTracker.Application.csproj.AssemblyReference.cache
+D:\Programador\ISC-Tracker\backend\ISCTracker.Application\obj\Debug\net10.0\ISCTracker.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programador\ISC-Tracker\backend\ISCTracker.Application\obj\Debug\net10.0\ISCTracker.Application.AssemblyInfoInputs.cache
+D:\Programador\ISC-Tracker\backend\ISCTracker.Application\obj\Debug\net10.0\ISCTracker.Application.AssemblyInfo.cs
+D:\Programador\ISC-Tracker\backend\ISCTracker.Application\obj\Debug\net10.0\ISCTracker.Application.csproj.CoreCompileInputs.cache
+D:\Programador\ISC-Tracker\backend\ISCTracker.Application\obj\Debug\net10.0\ISCTracker.Application.sourcelink.json
+D:\Programador\ISC-Tracker\backend\ISCTracker.Application\obj\Debug\net10.0\ISCTrack.2136FE56.Up2Date
+D:\Programador\ISC-Tracker\backend\ISCTracker.Application\obj\Debug\net10.0\ISCTracker.Application.dll
+D:\Programador\ISC-Tracker\backend\ISCTracker.Application\obj\Debug\net10.0\refint\ISCTracker.Application.dll
+D:\Programador\ISC-Tracker\backend\ISCTracker.Application\obj\Debug\net10.0\ISCTracker.Application.pdb
+D:\Programador\ISC-Tracker\backend\ISCTracker.Application\obj\Debug\net10.0\ref\ISCTracker.Application.dll

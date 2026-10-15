@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "ISCTracker.Application/1.0.0": {
+        "dependencies": {
+          "ISCTracker.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ISCTracker.Application.dll": {}
+        }
+      },
+      "ISCTracker.Domain/1.0.0": {
+        "runtime": {
+          "ISCTracker.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ISCTracker.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ISCTracker.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

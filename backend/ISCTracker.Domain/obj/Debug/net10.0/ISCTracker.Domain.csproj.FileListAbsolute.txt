@@ -1,0 +1,12 @@
+D:\Programador\ISC-Tracker\backend\ISCTracker.Domain\bin\Debug\net10.0\ISCTracker.Domain.deps.json
+D:\Programador\ISC-Tracker\backend\ISCTracker.Domain\bin\Debug\net10.0\ISCTracker.Domain.dll
+D:\Programador\ISC-Tracker\backend\ISCTracker.Domain\bin\Debug\net10.0\ISCTracker.Domain.pdb
+D:\Programador\ISC-Tracker\backend\ISCTracker.Domain\obj\Debug\net10.0\ISCTracker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programador\ISC-Tracker\backend\ISCTracker.Domain\obj\Debug\net10.0\ISCTracker.Domain.AssemblyInfoInputs.cache
+D:\Programador\ISC-Tracker\backend\ISCTracker.Domain\obj\Debug\net10.0\ISCTracker.Domain.AssemblyInfo.cs
+D:\Programador\ISC-Tracker\backend\ISCTracker.Domain\obj\Debug\net10.0\ISCTracker.Domain.csproj.CoreCompileInputs.cache
+D:\Programador\ISC-Tracker\backend\ISCTracker.Domain\obj\Debug\net10.0\ISCTracker.Domain.sourcelink.json
+D:\Programador\ISC-Tracker\backend\ISCTracker.Domain\obj\Debug\net10.0\ISCTracker.Domain.dll
+D:\Programador\ISC-Tracker\backend\ISCTracker.Domain\obj\Debug\net10.0\refint\ISCTracker.Domain.dll
+D:\Programador\ISC-Tracker\backend\ISCTracker.Domain\obj\Debug\net10.0\ISCTracker.Domain.pdb
+D:\Programador\ISC-Tracker\backend\ISCTracker.Domain\obj\Debug\net10.0\ref\ISCTracker.Domain.dll
