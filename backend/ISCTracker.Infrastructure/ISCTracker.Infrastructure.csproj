@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ISCTracker.Application\ISCTracker.Application.csproj" />
+    <ProjectReference Include="..\ISCTracker.Domain\ISCTracker.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

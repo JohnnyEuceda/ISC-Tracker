@@ -1,0 +1,10 @@
+﻿# Archivos con variables de entorno y credenciales
+.env
+**/.env
+
+# Archivos generados por la compilación de .NET
+**/bin/
+**/obj/
+
+# Archivos temporales de Visual Studio
+.vs/
