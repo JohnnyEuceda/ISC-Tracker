@@ -7,4 +7,5 @@ namespace ISCTracker.Application.Interfaces;
 public interface IAsignaturaRepository
 {
     Task<IEnumerable<Asignatura>> GetAllAsync();
+    Task<Asignatura> AddAsync(Asignatura asignatura);
 }

@@ -18,8 +18,10 @@ var connectionString =
 builder.Services.AddInfrastructure(connectionString);
 
 // Registrar los controladores que atenderán las solicitudes HTTP.
-builder.Services.AddControllers();
-
+builder.Services.AddControllers(options =>
+{
+    options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true;
+});
 // Registrar los servicios necesarios para generar la documentación OpenAPI.
 builder.Services.AddOpenApi();
 

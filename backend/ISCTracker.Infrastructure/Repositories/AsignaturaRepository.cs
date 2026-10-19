@@ -20,4 +20,11 @@ public class AsignaturaRepository : IAsignaturaRepository
     {
         return await _context.Asignaturas.ToListAsync();
     }
+
+    public async Task<Asignatura> AddAsync(Asignatura asignatura)
+    {
+        await _context.Asignaturas.AddAsync(asignatura);
+        await _context.SaveChangesAsync();
+        return asignatura;
+    }
 }
