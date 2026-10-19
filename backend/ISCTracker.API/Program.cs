@@ -1,5 +1,7 @@
+
 using DotNetEnv;
 using ISCTracker.Infrastructure;
+using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,24 +15,31 @@ var connectionString =
     ?? throw new InvalidOperationException(
         "Falta la variable ConnectionStrings__PostgresConnection en el archivo .env.");
 
-// Registrar el contexto de Entity Framework Core y los repositorios
-// definidos en el proyecto Infrastructure.
+// Registrar el contexto de Entity Framework Core y los repositorios.
 builder.Services.AddInfrastructure(connectionString);
 
-// Registrar los controladores que atenderán las solicitudes HTTP.
+// Registrar los controladores HTTP y conservar la configuración
+// de validación establecida previamente para las propiedades no nulas.
 builder.Services.AddControllers(options =>
 {
     options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true;
 });
-// Registrar los servicios necesarios para generar la documentación OpenAPI.
+
+// Registrar los servicios para generar la documentación OpenAPI.
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
-// Habilitar el documento OpenAPI únicamente en el entorno de desarrollo.
+// Publicar OpenAPI y Scalar únicamente en el entorno de desarrollo.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.MapScalarApiReference(options =>
+    {
+        options
+            .WithTitle("ISC Tracker API")
+            .WithOpenApiRoutePattern("/openapi/v1.json");
+    });
 }
 
 // Redirigir las solicitudes HTTP a HTTPS.
@@ -47,7 +56,6 @@ var summaries = new[]
 };
 
 // Crear el endpoint de ejemplo /weatherforecast.
-// Genera cinco pronósticos con fechas y temperaturas aleatorias.
 app.MapGet("/weatherforecast", () =>
 {
     var forecast = Enumerable.Range(1, 5).Select(index =>
@@ -62,7 +70,7 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast");
 
-// Iniciar la aplicación y comenzar a recibir solicitudes.
+// Iniciar la aplicación.
 app.Run();
 
 // Definir la estructura de cada pronóstico meteorológico.

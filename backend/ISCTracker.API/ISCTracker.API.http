@@ -1,6 +1,31 @@
+
 @ISCTracker.API_HostAddress = http://localhost:5218
 
-GET {{ISCTracker.API_HostAddress}}/weatherforecast/
+### 1. Obtener pronósticos meteorológicos (GET)
+
+GET {{ISCTracker.API_HostAddress}}/weatherforecast
 Accept: application/json
+
+###
+
+### 2. Obtener todas las asignaturas (GET)
+
+GET {{ISCTracker.API_HostAddress}}/api/Asignaturas
+Accept: application/json
+
+###
+
+### 3. Crear una asignatura (POST)
+
+POST {{ISCTracker.API_HostAddress}}/api/Asignaturas
+Content-Type: application/json; charset=utf-8
+
+{
+  "codigo": "ISC-103",
+  "nombre": "Estructuras de Datos",
+  "unidadesValorativas": 4,
+  "areaAcademicaId": 7,
+  "estadoAsignaturaId": 4
+}
 
 ###
